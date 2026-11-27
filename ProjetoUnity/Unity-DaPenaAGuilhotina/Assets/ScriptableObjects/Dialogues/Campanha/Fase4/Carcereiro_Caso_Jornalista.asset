@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: Carcereiro_Caso_Jornalista
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Jacques-Pierre Brissot
+    text: "Camille pedindo clem\xEAncia? Que ironia. Foi a pena dele que ajudou a
+      nos trazer at\xE9 aqui."
+    dialogueAudio:
+      Guid:
+        Data1: -965542973
+        Data2: 1100021036
+        Data3: -1855094377
+        Data4: 422503636
+      Path: event:/P3Bravo
+    choices: []
+  - name: Jacques-Pierre Brissot
+    text: "Aqui dentro se diz que a lista dele s\xF3 tem aristocratas e banqueiros
+      amigos da mulher, e que metade dos nomes foi inventada."
+    dialogueAudio:
+      Guid:
+        Data1: 1101814583
+        Data2: 1283210372
+        Data3: 1674768279
+        Data4: -1519714328
+      Path: event:/P3Normal
+    choices: []
+  - name: Jacques-Pierre Brissot
+    text: "Se quer saber o que Robespierre pensa do amigo, o arquivo do Comit\xEA
+      guarda o rascunho anotado. E a caixa de den\xFAncias vive cheia de pap\xE9is
+      sobre Camille."
+    dialogueAudio:
+      Guid:
+        Data1: 1101814583
+        Data2: 1283210372
+        Data3: 1674768279
+        Data4: -1519714328
+      Path: event:/P3Normal
+    choices:
+    - choiceText: O senhor viu a lista?
+      nextDialogue: {fileID: 11400000, guid: 57bb4a52cbd74934a99a494bb9ea5726, type: 2}
+    - choiceText: O senhor guarda rancor de Camille?
+      nextDialogue: {fileID: 11400000, guid: c6cfd232d0a4e8649a3226067e862ec1, type: 2}

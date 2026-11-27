@@ -1,0 +1,113 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "NovoCaso", menuName = "ScriptableObject/Caso de Investigacao")]
+public class CaseData : ScriptableObject
+{
+    [Header("Textos da Carta (Mesa)")]
+    public string caseTitle; // Ex: "O Motim na Fábrica"
+    [TextArea(4, 6)]
+    public string caseDescription; // O relato do contratante
+    public string objectiveText; // Ex: "Descobrir quem ordenou o ataque."
+
+    [Header("Impacto nos Status (Ganhos e Perdas)")]
+    public int moneyReward; // Ex: +50 para Réveillon, +10 para o Operário
+    public int publicOpinionReward; // Ex: -20 (fama de mercenário) ou +30 (herói do povo)
+    [Tooltip("Impacto estimado na Opinião do Estado, exibido na HUD de seleção de casos (Mesa de Casos). " +
+             "Mesmo padrão de sinal do publicOpinionReward: positivo = tendência de aumento, negativo = queda.")]
+    public int stateOpinionReward; // Ex: -30 (desagrada a coroa) ou +20 (serve bem ao Estado)
+
+    [Header("Progressão")]
+    [Tooltip("Fase em que este caso aparece na Mesa de Casos (1 = tutorial, 2, 3 ou 4).")]
+    [Range(1, GameManager.UltimaFase)]
+    public int fase = 2;
+
+    [Tooltip("Só para casos da Fase 4: a mesa entrega apenas o caso da rota travada (Povo x Estado). " +
+             "Nenhuma = aparece em qualquer rota.")]
+    public RotaFinal rota = RotaFinal.Nenhuma;
+
+    [Tooltip("Horas para investigar este caso. 0 = usa o padrão do GameManager (Horas Por Caso).")]
+    [Min(0)] public int horasDeInvestigacao = 0;
+
+    [Header("Conexão com a Próxima Fase")]
+    [Tooltip("O roteiro de diálogo que será ativado no NPC da Fase 2 se este caso for escolhido.")]
+    public DialogueData npcDialogueRoute; 
+    
+    [Tooltip("Cena da investigação deste caso (ex: Fase2, Fase3). A porta do escritório leva para ela enquanto o caso estiver em andamento.")]
+    public string nextSceneName = "Fase2";
+
+    [Header("Panfleto do Caso (Fato x Boato)")]
+    [Tooltip("Define o que a prensa imprime com as pistas deste caso, conforme sejam fatos ou boatos.")]
+    public ReceitaDeCaso receitaDoPanfleto;
+
+    [Header("Cartas do cliente (só leitura)")]
+    [Tooltip("A versão do cliente, entregue ao aceitar o caso para o jogador ler no inventário (e, às vezes, saber por " +
+             "onde começar). Não são pistas: não vão para a prensa, para o quadro de dedução nem para o tribunal " +
+             "(Item.EhLeitura). Use itens do próprio caso com confiabilidade NaoEPista e fonte 'Carta do cliente'. " +
+             "Arquivadas ao concluir o caso.")]
+    public List<Item> alegacoesIniciais = new List<Item>();
+
+    [Header("Dedução ativa (Prompt 4; Fases 2, 3 e 4)")]
+    [Tooltip("Pares de pistas contraditórias do caso e o quadro de dedução. Configurado por Ferramentas > Campanha > " +
+             "5 - Aplicar dedução ativa. Desligada = comportamento antigo (a verdade aparece com Verificada Por).")]
+    public ConfiguracaoDeDeducao deducao = new ConfiguracaoDeDeducao();
+
+    [Header("Arquivo de casos (menu principal > Casos resolvidos)")]
+    [Tooltip("Título no arquivo. Vazio = caseTitle (o caso do tutorial não tem título na mesa).")]
+    public string tituloNoArquivo;
+    [Tooltip("Título do panfleto no arquivo. Vazio = nome do item de panfleto da receita.")]
+    public string tituloDoPanfleto;
+    [TextArea(3, 8)]
+    [Tooltip("O teor do panfleto: o que ele defendia e para quem. As afirmações vêm das pistas impressas " +
+             "(Item.afirmacaoNoPanfleto) e o tom, da linha editorial.")]
+    public string teorDoPanfleto;
+    [TextArea(3, 8)]
+    [Tooltip("Uma linha por personagem, no formato \"Nome — papel no caso\". Só aparece depois que a fase do caso termina.")]
+    public string personagens;
+    [TextArea(6, 14)]
+    [Tooltip("O que realmente aconteceu no caso (a verdade das pistas). Só aparece depois que a fase do caso termina, " +
+             "para nunca revelar antes da hora qual afirmação era verdadeira.")]
+    public string historia;
+    [TextArea(2, 5)] [Tooltip("Desfecho quando o panfleto saiu só com fatos.")]
+    public string desfechoFatos;
+    [TextArea(2, 5)] [Tooltip("Desfecho quando o panfleto misturou um fato e um boato.")]
+    public string desfechoComBoato;
+    [TextArea(2, 5)] [Tooltip("Desfecho quando o panfleto saiu com calúnia (ou dois boatos).")]
+    public string desfechoCalunia;
+    [TextArea(2, 5)]
+    [Tooltip("O que aconteceu na história real, para o jogador separar o jogo dos fatos. Vazio = não aparece.")]
+    public string notaHistorica;
+
+    /// <summary>Alegações (legado) usa o texto do boato.</summary>
+    public string DesfechoDa(NivelDoPanfleto nivel)
+    {
+        switch (nivel)
+        {
+            case NivelDoPanfleto.Fatos: return desfechoFatos;
+            case NivelDoPanfleto.Calunia: return desfechoCalunia;
+            default: return desfechoComBoato;
+        }
+    }
+
+    public bool EhAlegacao(Item item)
+    {
+        if (item == null || string.IsNullOrEmpty(item.itemID) || alegacoesIniciais == null) return false;
+        foreach (Item alegacao in alegacoesIniciais)
+            if (alegacao != null && alegacao.itemID == item.itemID) return true;
+        return false;
+    }
+
+#if UNITY_EDITOR
+    // Só assets salvos e casos da Mesa (Fase 2+): o tutorial já começa escolhido e nunca aparece na mesa.
+    private void OnValidate()
+    {
+        if (fase < 2 || !UnityEditor.EditorUtility.IsPersistent(this)) return;
+
+        if (string.IsNullOrWhiteSpace(caseTitle))
+            Debug.LogWarning($"[CaseData] '{name}' está sem caseTitle.", this);
+
+        if (npcDialogueRoute == null)
+            Debug.LogWarning($"[CaseData] '{name}' não tem rota de diálogo (npcDialogueRoute) definida.", this);
+    }
+#endif
+}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d3a40fd8b7f6b47873ddb8ab32ce5e, type: 3}
+  m_Name: Caso_Negociante
+  m_EditorClassIdentifier: Assembly-CSharp::CaseData
+  caseTitle: "O Caso do Pequeno Mercador de Gr\xE3os"
+  caseDescription: "Outono de 1793. A fome aperta Paris, e a lei contra o a\xE7ambarcamento
+    pune com a morte quem esconde g\xEAneros de primeira necessidade. Um pequeno
+    mercador \xE9 acusado de guardar sacos de farinha no por\xE3o enquanto crian\xE7as
+    passam fome. Ele jura que a farinha \xE9 de um atravessador rico. Defend\xEA-lo
+    \xE9 enfrentar uma multid\xE3o que precisa de um culpado."
+  objectiveText: "Descobrir a quem pertence a farinha do por\xE3o e por que ela some
+    das lojas."
+  moneyReward: 60
+  publicOpinionReward: -5
+  stateOpinionReward: 12
+  fase: 4
+  rota: 2
+  horasDeInvestigacao: 0
+  npcDialogueRoute: {fileID: 11400000, guid: f53c487eb24e62d42b5ecca5b5ba38b2, type: 2}
+  nextSceneName: Fase4
+  receitaDoPanfleto: {fileID: 11400000, guid: 1c04d51daf49a6a42ab3385950bfcc5e, type: 2}
+  alegacoesIniciais:
+  - {fileID: 11400000, guid: 4c37a83011454e74bbedbdafaa2d6b0a, type: 2}
+  - {fileID: 11400000, guid: 91a682519e75b17418f88c4f8b75dc3d, type: 2}
+  deducao:
+    ativa: 1
+    pares:
+    - a: {fileID: 11400000, guid: b503a9d335153714ea5e907e0cc57955, type: 2}
+      b: {fileID: 11400000, guid: c359ba65f80d70d4cbc1f94f86e6ee0b, type: 2}
+    - a: {fileID: 11400000, guid: d7d88312a47d732468be974771912d92, type: 2}
+      b: {fileID: 11400000, guid: cdff7f6ab344e7e4393ca0741e5a3a0a, type: 2}
+  tituloNoArquivo: 
+  tituloDoPanfleto: 
+  teorDoPanfleto: "Uma defesa do pequeno mercador acusado de a\xE7ambarcamento: o
+    panfleto apontava o verdadeiro dono da farinha do por\xE3o e as falhas das leis
+    de abastecimento que esvaziavam as padarias."
+  personagens: "O pequeno mercador \u2014 acusado de esconder farinha; seu cliente\nO
+    atravessador \u2014 fornecedor dos ex\xE9rcitos, dono da farinha do por\xE3o\nCamille
+    Desmoulins \u2014 repetia que a farinha era do mercador\nOs comiss\xE1rios da
+    se\xE7\xE3o \u2014 fiscalizavam estoques e pre\xE7os"
+  historia: "No outono de 1793, a fome apertava Paris, e a lei contra o a\xE7ambarcamento
+    punia com a morte quem escondesse g\xEAneros. As faturas mostram que a farinha
+    do por\xE3o era de um fornecedor dos ex\xE9rcitos, que alugava o por\xE3o; o
+    mercador s\xF3 recebia o aluguel.\n\nE a farinha sumia das padarias pequenas
+    por causa da pr\xF3pria lei do M\xE1ximo: o pre\xE7o fixado, o de 1790 mais um
+    ter\xE7o e sem contar o frete, n\xE3o pagava o transporte, e a se\xE7\xE3o avisava
+    da falta. A hist\xF3ria de que as padarias estavam cheias era falsa.\n\nO pequeno
+    mercador era o culpado mais f\xE1cil de achar para uma multid\xE3o com fome."
+  desfechoFatos: O panfleto mostrou as faturas e a falha das leis de abastecimento.
+    Diante das provas, o tribunal absolveu o mercador.
+  desfechoComBoato: O panfleto misturou as faturas a um boato. A parte falsa caiu,
+    e o tribunal ficou com a desculpa de que precisava.
+  desfechoCalunia: "O panfleto apostou numa cal\xFAnia. A mentira foi usada contra
+    o pr\xF3prio mercador, e a multid\xE3o teve o culpado que queria."
+  notaHistorica: "A lei contra o a\xE7ambarcamento (26/07/1793, com pena de morte)
+    e o M\xE1ximo geral (29/09/1793, pre\xE7os de 1790 mais um ter\xE7o) s\xE3o reais.
+    O mercador, o atravessador e as faturas s\xE3o do jogo."

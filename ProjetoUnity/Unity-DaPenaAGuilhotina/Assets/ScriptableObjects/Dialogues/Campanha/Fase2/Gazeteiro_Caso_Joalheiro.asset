@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: Gazeteiro_Caso_Joalheiro
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Gazeteiro
+    text: "Gazetas! O colar da Rainha outra vez! Desde que aquela condessa fugiu
+      da pris\xE3o e escreveu suas mem\xF3rias, Paris n\xE3o fala de outra coisa."
+    dialogueAudio:
+      Guid:
+        Data1: -965542973
+        Data2: 1100021036
+        Data3: -1855094377
+        Data4: 422503636
+      Path: event:/P3Bravo
+    choices: []
+  - name: Julien Valois
+    text: E o que dizem nas tavernas?
+    dialogueAudio:
+      Guid:
+        Data1: 1101814583
+        Data2: 1283210372
+        Data3: 1674768279
+        Data4: -1519714328
+      Path: event:/P3Normal
+    choices: []
+  - name: Gazeteiro
+    text: "Que a pr\xF3pria Rainha foi \xE0 loja do joalheiro, disfar\xE7ada, escolher
+      o colar escondida do Rei. Depois negou tudo."
+    dialogueAudio:
+      Guid:
+        Data1: 1101814583
+        Data2: 1283210372
+        Data3: 1674768279
+        Data4: -1519714328
+      Path: event:/P3Normal
+    choices: []
+  - name: Gazeteiro
+    text: E no muro de cartazes colaram uma folha contando coisa pior, sobre ela
+      e o Cardeal.
+    dialogueAudio:
+      Guid:
+        Data1: 1101814583
+        Data2: 1283210372
+        Data3: 1674768279
+        Data4: -1519714328
+      Path: event:/P3Normal
+    choices:
+    - choiceText: Quem viu a Rainha na loja?
+      nextDialogue: {fileID: 11400000, guid: fb03d0b221262ce418fbbe1c5b7b2dc1, type: 2}
+    - choiceText: "Por que o povo acredita t\xE3o f\xE1cil?"
+      nextDialogue: {fileID: 11400000, guid: 893d7e352df0a5d48a29c72cfbea9e09, type: 2}

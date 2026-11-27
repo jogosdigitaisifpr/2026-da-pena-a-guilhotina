@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d3a40fd8b7f6b47873ddb8ab32ce5e, type: 3}
+  m_Name: Caso_Reveillon
+  m_EditorClassIdentifier: Assembly-CSharp::CaseData
+  caseTitle: "Os Trabalhadores de R\xE9veillon"
+  caseDescription: "Abril de 1789. Jean-Baptiste R\xE9veillon, dono de uma pr\xF3spera
+    manufatura de pap\xE9is de parede no faubourg Saint-Antoine, falou de sal\xE1rios
+    e do pre\xE7o do p\xE3o numa assembleia eleitoral. Dias depois, uma multid\xE3o
+    faminta saqueou sua casa e sua f\xE1brica, e a Guarda Francesa atirou contra
+    ela. R\xE9veillon quer que a tipografia limpe seu nome."
+  objectiveText: "Descobrir o que R\xE9veillon realmente prop\xF4s na assembleia
+    e como ele tratava seus oper\xE1rios."
+  moneyReward: 50
+  publicOpinionReward: -5
+  stateOpinionReward: 12
+  fase: 2
+  rota: 0
+  horasDeInvestigacao: 0
+  npcDialogueRoute: {fileID: 11400000, guid: f27d773ce1be70b4c96caa2674644288, type: 2}
+  nextSceneName: Fase2
+  receitaDoPanfleto: {fileID: 11400000, guid: cf9a2794fffef3d469bc6ea79d8a34e9, type: 2}
+  alegacoesIniciais:
+  - {fileID: 11400000, guid: 926ceee11e80ba8489082eb7cceab01f, type: 2}
+  - {fileID: 11400000, guid: 05109096ebc4323458aa8d8954f30ddb, type: 2}
+  deducao:
+    ativa: 1
+    pares:
+    - a: {fileID: 11400000, guid: 9d7e85a0e81ff334a9df31a556a053ac, type: 2}
+      b: {fileID: 11400000, guid: 6bf3409ea5415da43aa0ca791391a660, type: 2}
+    - a: {fileID: 11400000, guid: dce74fa9250bef44f936cb44fe76cecd, type: 2}
+      b: {fileID: 11400000, guid: 5849e9deae489f8439be3a5d5a7f802c, type: 2}
+  tituloNoArquivo: 
+  tituloDoPanfleto: 
+  teorDoPanfleto: "Uma defesa de Jean-Baptiste R\xE9veillon: o panfleto queria limpar
+    o nome do patr\xE3o depois do saque, contando o que ele prop\xF4s na assembleia
+    e como tratava os seus oper\xE1rios."
+  personagens: "Jean-Baptiste R\xE9veillon \u2014 dono da manufatura de pap\xE9is
+    de parede; seu cliente\nOs oper\xE1rios do faubourg Saint-Antoine \u2014 trabalhadores
+    e vizinhos da f\xE1brica\nO oper\xE1rio sobrevivente \u2014 contava a hist\xF3ria
+    dos \"quinze soldos\"\nO gazeteiro \u2014 espalhava que R\xE9veillon mandava
+    dinheiro \xE0 Inglaterra\nA Guarda Francesa \u2014 atirou contra a multid\xE3o"
+  historia: "Em 23 de abril de 1789, numa assembleia eleitoral, R\xE9veillon prop\xF4s
+    abolir as taxas cobradas nas barreiras de Paris para baratear o p\xE3o e, com
+    ele, os sal\xE1rios. No bairro, a frase chegou cortada: que ele s\xF3 queria
+    baixar os sal\xE1rios, a \"quinze soldos\" por dia.\n\nOs registros da manufatura
+    mostram outro patr\xE3o: R\xE9veillon pagava acima da m\xE9dia e manteve os sal\xE1rios
+    no inverno dur\xEDssimo de 1788. A hist\xF3ria do dinheiro mandado \xE0 Inglaterra
+    era cal\xFAnia.\n\nNos dias 27 e 28 de abril, uma multid\xE3o faminta saqueou
+    sua casa e sua f\xE1brica. R\xE9veillon se refugiou na Bastilha, e a Guarda Francesa
+    atirou contra o povo."
+  desfechoFatos: "O panfleto mostrou o que R\xE9veillon prop\xF4s e como pagava seus
+    oper\xE1rios. Limpou o nome do patr\xE3o e agradou a quem queria ordem nas ruas,
+    mas, no faubourg, muitos o leram como a defesa de um rico enquanto enterravam
+    seus mortos."
+  desfechoComBoato: "O panfleto defendeu R\xE9veillon com um fato e um boato. A vers\xE3o
+    agradou aos poderosos e rendeu bem, at\xE9 a parte falsa ser desmentida e virar
+    muni\xE7\xE3o contra o pr\xF3prio R\xE9veillon."
+  desfechoCalunia: "O panfleto apostou em acusa\xE7\xF5es sem prova para defender
+    R\xE9veillon. O ganho veio r\xE1pido; quando a mentira caiu, o Estado que voc\xEA
+    quis agradar foi o primeiro a se afastar."
+  notaHistorica: "A assembleia de 23/04/1789 e o motim de 27 e 28/04/1789 s\xE3o
+    reais; R\xE9veillon se refugiou na Bastilha e a Guarda Francesa atirou. O n\xFAmero
+    de mortos varia muito entre as fontes, e elas divergem sobre o que ele disse
+    exatamente sobre os sal\xE1rios."

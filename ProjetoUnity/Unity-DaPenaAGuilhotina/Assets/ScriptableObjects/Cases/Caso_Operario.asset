@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d3a40fd8b7f6b47873ddb8ab32ce5e, type: 3}
+  m_Name: Caso_Operario
+  m_EditorClassIdentifier: Assembly-CSharp::CaseData
+  caseTitle: "O Oper\xE1rio Acusado"
+  caseDescription: "Abril de 1789. Um oper\xE1rio do faubourg Saint-Antoine sobreviveu
+    ao massacre na manufatura de R\xE9veillon e agora \xE9 procurado por participar
+    do levante. Ele diz que a multid\xE3o s\xF3 pedia p\xE3o e sal\xE1rio, e que
+    a Guarda Francesa atirou para matar. Ele pede ajuda para escapar da condena\xE7\xE3o."
+  objectiveText: "Descobrir como a Guarda agiu contra a multid\xE3o e o que sustenta
+    a acusa\xE7\xE3o contra o oper\xE1rio."
+  moneyReward: 30
+  publicOpinionReward: 10
+  stateOpinionReward: -5
+  fase: 2
+  rota: 0
+  horasDeInvestigacao: 0
+  npcDialogueRoute: {fileID: 11400000, guid: b4c2cea48397acf48a53804e9fda36e7, type: 2}
+  nextSceneName: Fase2
+  receitaDoPanfleto: {fileID: 11400000, guid: 24b892ea53f1745409603d7bc35ace17, type: 2}
+  alegacoesIniciais:
+  - {fileID: 11400000, guid: ae007878725f10d4e9780a7a3b312739, type: 2}
+  - {fileID: 11400000, guid: e9138a04cd285e645979f943436bc980, type: 2}
+  deducao:
+    ativa: 1
+    pares:
+    - a: {fileID: 11400000, guid: 2b7a0d1628caed742b2bcf2b1762b4ac, type: 2}
+      b: {fileID: 11400000, guid: bd6b684e6c8e0264790faf66aa2ed84b, type: 2}
+    - a: {fileID: 11400000, guid: d17c6356e0ae8b3469d412fd43268746, type: 2}
+      b: {fileID: 11400000, guid: 4c8c01357c9bbb4419151f49967720c6, type: 2}
+  tituloNoArquivo: 
+  tituloDoPanfleto: 
+  teorDoPanfleto: "Uma defesa do oper\xE1rio sobrevivente: o panfleto pedia que ele
+    n\xE3o fosse condenado como saqueador e cobrava da Guarda Francesa a responsabilidade
+    pelos mortos do faubourg."
+  personagens: "O oper\xE1rio do faubourg Saint-Antoine \u2014 sobrevivente do massacre;
+    seu cliente\nJean-Baptiste R\xE9veillon \u2014 dono da manufatura atacada\nO
+    comandante da Guarda Francesa \u2014 assinou a ordem de dispersar a multid\xE3o\nA
+    multid\xE3o do faubourg \u2014 oper\xE1rios que pediam p\xE3o e sal\xE1rio"
+  historia: "No fim de abril de 1789, oper\xE1rios do faubourg Saint-Antoine marcharam
+    at\xE9 a manufatura de R\xE9veillon pedindo p\xE3o e sal\xE1rio. A multid\xE3o
+    n\xE3o tinha armas de fogo, e a Guarda Francesa atirou para matar.\n\nO cartaz
+    com a ordem do comandante prova que a ordem de dispersar \"por todos os meios\"
+    foi afixada antes de a multid\xE3o chegar \xE0 f\xE1brica: os tiros n\xE3o foram
+    resposta a um inc\xEAndio. As vers\xF5es que circularam depois, de que o povo
+    fora pago por agitadores do duque de Orl\xE9ans e de que o oper\xE1rio ateara
+    fogo \xE0 f\xE1brica, serviram para justificar o massacre.\n\nO sobrevivente,
+    procurado como saqueador, s\xF3 tinha a pr\xF3pria palavra contra a da Guarda."
+  desfechoFatos: "O panfleto mostrou que a multid\xE3o estava desarmada e que a ordem
+    de atirar veio antes. O oper\xE1rio ganhou uma defesa p\xFAblica, e o povo do
+    faubourg viu a tipografia do seu lado."
+  desfechoComBoato: "O panfleto defendeu o oper\xE1rio com um fato e um boato. Comoveu
+    as ruas, mas a parte falsa foi desmentida e deu aos acusadores um motivo para
+    duvidar de tudo."
+  desfechoCalunia: "O panfleto acusou sem provas para defender o oper\xE1rio. Inflamou
+    o bairro e vendeu muito, at\xE9 a cal\xFAnia cair e o povo que voc\xEA defendia
+    pagar pela sua pressa."
+  notaHistorica: "O motim de 27 e 28/04/1789 e os tiros da Guarda Francesa s\xE3o
+    reais. O boato de que o duque de Orl\xE9ans pagou agitadores nunca foi provado.
+    O oper\xE1rio e o cartaz com a ordem do comandante s\xE3o do jogo."

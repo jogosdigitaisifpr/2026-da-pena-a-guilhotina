@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8661673706738838507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7419079738317452536}
+  - component: {fileID: 1281477796774040997}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7419079738317452536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8661673706738838507}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.77792, y: -0.99597, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1281477796774040997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8661673706738838507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3b817854e8ab54f976acbf2f004578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  casoEscolhido: {fileID: 11400000, guid: d0bd65d553c918045aaf794e01462c68, type: 2}
+  casosJaSelecionados: []
+  faseAtual: 1
+  casosPorFase: 01000000010000000100000001000000
+  casosConcluidos: []
+  horasPorCaso: 8
+  horasDoCaso: 0
+  horasRestantes: 0
+  registroDaInvestigacao:
+    interacoesPagas: []
+    lootsColetados: []
+    recompensasEntregues: []
+    casosComEstadoLegado: []
+    interacoesPagasLegadas: []
+  despesasPorFase: 00000000190000003200000000000000
+  horasPerdidasPorDivida: 1
+  rotaFinal: 0
+  margemDaRota: 12
+  capitalAtual: 0
+  opiniaoPublicaAtual: 45
+  opiniaoEstadoAtual: 45
+  inventarioSalvo: []
+  itensForaDaGrade: []
+  panfletosPublicados: []
+  revelacoesPendentes: []
+  pistasVerificadas: []
+  evidenciasObtidas: []
+  comprasDaBiblioteca: []
+  escolhasDeDeducao: []
+  inventoryManager: {fileID: 0}
+  dialogueSystem: {fileID: 0}
+  somEntregaMesa:
+    Guid:
+      Data1: -272638835
+      Data2: 1137460364
+      Data3: -1741454699
+      Data4: -1645349320
+    Path: event:/Pegaritem

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: CidadaDelorme_Caso_Girondina_carta_da_secao
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Pierre Vergniaud
+    text: "Ent\xE3o voc\xEA viu a nota de Robespierre. Eles t\xEAm pressa porque
+      a nossa defesa assusta."
+    dialogueAudio:
+      Guid:
+        Data1: -1877086842
+        Data2: 1147956126
+        Data3: 557338505
+        Data4: -1852382703
+      Path: event:/P2Normal
+    choices: []
+  - name: Pierre Vergniaud
+    text: "Leve tamb\xE9m as minhas notas. Se eu n\xE3o puder terminar de falar,
+      que o seu panfleto termine por mim."
+    dialogueAudio:
+      Guid:
+        Data1: -1877086842
+        Data2: 1147956126
+        Data3: 557338505
+        Data4: -1852382703
+      Path: event:/P2Normal
+    choices: []

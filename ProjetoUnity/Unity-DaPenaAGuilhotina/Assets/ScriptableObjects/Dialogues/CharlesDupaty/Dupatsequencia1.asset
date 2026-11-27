@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: Dupatsequencia1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Charles Dupaty
+    text: "Eu ouvi falar sobre esse caso. Est\xE1 cheio de erros: n\xE3o investigaram,
+      n\xE3o ouviram os acusados e usaram a tortura para os obrigar a confessar o
+      que queriam."
+    dialogueAudio:
+      Guid:
+        Data1: -403724050
+        Data2: 1276221962
+        Data3: 2017058486
+        Data4: -235533275
+      Path: event:/P2(2)Normal
+    choices:
+    - choiceText: Como devemos usar o relato de Marie sem afirmar mais do que sabemos?
+      nextDialogue: {fileID: 11400000, guid: a1c5ae4b18f466e49bffbbb051dad95a, type: 2}
+    - choiceText: "Como tornar esse sofrimento p\xFAblico sem explorar a fam\xEDlia?"
+      nextDialogue: {fileID: 11400000, guid: f1e14924ae76a0f46a31339a9f7db594, type: 2}
+    - choiceText: "Mestre, se as falhas s\xE3o t\xE3o \xF3bvias, por que n\xE3o apelamos
+        diretamente ao Parlamento?"
+      nextDialogue: {fileID: 11400000, guid: 01222fe2072dd8e44a0ee4eb0c1d84fd, type: 2}

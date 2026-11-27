@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: CidadaDelorme_Caso_Girondina
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Pierre Vergniaud
+    text: "Minha ret\xF3rica \xE9 minha \xFAnica arma. As galerias est\xE3o come\xE7ando
+      a ouvir a raz\xE3o. Robespierre est\xE1 com medo de que o povo nos absolva!"
+    dialogueAudio:
+      Guid:
+        Data1: 1073101364
+        Data2: 1084329749
+        Data3: 1909596053
+        Data4: -2045081360
+      Path: event:/P2Reclamar
+    choices: []
+  - name: Pierre Vergniaud
+    text: "Brissot guarda as cartas que a acusa\xE7\xE3o chama de provas de federalismo.
+      Leia-as antes de acreditar no que dizem delas."
+    dialogueAudio:
+      Guid:
+        Data1: -1877086842
+        Data2: 1147956126
+        Data3: 557338505
+        Data4: -1852382703
+      Path: event:/P2Normal
+    choices: []
+  - name: Pierre Vergniaud
+    text: "E desconfie de Camille Desmoulins: a pena dele ajudou a nos trazer at\xE9
+      aqui, e ainda corre pelas ruas."
+    dialogueAudio:
+      Guid:
+        Data1: -403724050
+        Data2: 1276221962
+        Data3: 2017058486
+        Data4: -235533275
+      Path: event:/P2(2)Normal
+    choices:
+    - choiceText: "Sua voz \xE9 poderosa, mas o Comit\xEA tem o poder de cal\xE1-la
+        por decreto. Precisamos agir r\xE1pido."
+      nextDialogue: {fileID: 11400000, guid: 2f8884676ef88f44193cc4b8df1a35ef, type: 2}
+    - choiceText: "Vou coletar o testemunho de Robespierre. Se provarmos a manipula\xE7\xE3o
+        dele, a Rep\xFAblica ter\xE1 que recuar."
+      nextDialogue: {fileID: 11400000, guid: 34cba0c36d8fd0e42af0625d3eaccb1f, type: 2}
+    - choiceText: O senhor teme a guilhotina?
+      nextDialogue: {fileID: 11400000, guid: 709cdc493bd1625489461596350a7900, type: 2}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: CocheiroJoubert_Caso_Assignats
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Guillaume Kornmann
+    text: "Conhe\xE7o os ju\xEDzes, meu caro, janto com metade deles. Contam que
+      a mo\xE7a saiu do convento s\xE3 e feliz, decidida a se converter, e que o
+      pai a trancava em casa para impedi-la."
+    dialogueAudio:
+      Guid:
+        Data1: -922102975
+        Data2: 1274908470
+        Data3: 619609240
+        Data4: 476546802
+      Path: event:/P1Normal
+    choices: []
+  - name: Guillaume Kornmann
+    text: "A tipografia da esquina reimprime o Tratado de Voltaire na caixa de tipos,
+      e colaram um cartaz sobre Calas no mural. Paris adora uma briga de religi\xE3o."
+    dialogueAudio:
+      Guid:
+        Data1: -922102975
+        Data2: 1274908470
+        Data3: 619609240
+        Data4: 476546802
+      Path: event:/P1Normal
+    choices:
+    - choiceText: "Os ju\xEDzes viram a mo\xE7a depois do convento?"
+      nextDialogue: {fileID: 11400000, guid: 83e27a2f71b2bb34cb45e2fd5cce3829, type: 2}
+    - choiceText: "Por que o senhor repete o que os ju\xEDzes dizem?"
+      nextDialogue: {fileID: 11400000, guid: 18d9a9a661786124fb3a4bcf235ca02c, type: 2}

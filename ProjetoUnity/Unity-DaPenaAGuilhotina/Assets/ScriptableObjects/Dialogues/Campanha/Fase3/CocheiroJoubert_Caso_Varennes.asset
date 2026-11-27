@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: CocheiroJoubert_Caso_Varennes
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Guillaume Kornmann
+    text: "Minha esposa me desonrou, mas o verdadeiro crime \xE9 o Estado proteg\xEA-la
+      porque ela serve ao prazer dos ministros do Rei."
+    dialogueAudio:
+      Guid:
+        Data1: -922102975
+        Data2: 1274908470
+        Data3: 619609240
+        Data4: 476546802
+      Path: event:/P1Normal
+    choices: []
+  - name: Guillaume Kornmann
+    text: "Tenho o di\xE1rio dela, escrito com a letra dela. Est\xE1 tudo ali: o
+      amante, as promessas, os protetores."
+    dialogueAudio:
+      Guid:
+        Data1: 1478299652
+        Data2: 1162276150
+        Data3: -1083247725
+        Data4: -607757615
+      Path: event:/P1Tristeza
+    choices: []
+  - name: Guillaume Kornmann
+    text: "E aquele advogado dos Cordeliers, o Danton, ri de mim no caf\xE9 dizendo
+      que eu mesmo escrevi o di\xE1rio!"
+    dialogueAudio:
+      Guid:
+        Data1: -1800404600
+        Data2: 1291553084
+        Data3: -2072599661
+        Data4: 407837240
+      Path: event:/P1Reclamar
+    choices: []
+  - name: Guillaume Kornmann
+    text: "Eu tenho o ouro, voc\xEA tem a pena. Vamos destruir a reputa\xE7\xE3o
+      desses aristocratas?"
+    dialogueAudio:
+      Guid:
+        Data1: -922102975
+        Data2: 1274908470
+        Data3: 619609240
+        Data4: 476546802
+      Path: event:/P1Normal
+    choices:
+    - choiceText: "Podemos associar o seu caso ao dramaturgo Beaumarchais para garantir
+        que toda Paris fale sobre essa corrup\xE7\xE3o."
+      nextDialogue: {fileID: 11400000, guid: a4424cf6c80aac34e95c1403b1c3dca2, type: 2}
+    - choiceText: "Se atacarmos os antigos ministros, os amigos deles ainda t\xEAm
+        poder. O senhor est\xE1 pronto para as consequ\xEAncias?"
+      nextDialogue: {fileID: 11400000, guid: c24af45a7fed57d4ba63dc190723138e, type: 2}
+    - choiceText: "Por que o senhor quer o div\xF3rcio agora?"
+      nextDialogue: {fileID: 11400000, guid: de9bb1be92fa78d4ba89fd9c4b32b6d3, type: 2}

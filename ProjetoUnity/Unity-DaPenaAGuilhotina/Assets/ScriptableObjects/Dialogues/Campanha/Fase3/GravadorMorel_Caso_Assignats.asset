@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: GravadorMorel_Caso_Assignats
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Pierre-Paul Sirven
+    text: "Eles n\xE3o querem justi\xE7a pela minha filha. Eles querem meu ouro e
+      meu sil\xEAncio."
+    dialogueAudio:
+      Guid:
+        Data1: -502641341
+        Data2: 1330990861
+        Data3: -759013969
+        Data4: 473500730
+      Path: event:/P3Tristeza
+    choices: []
+  - name: Pierre-Paul Sirven
+    text: "O m\xE9dico que atendeu \xC9lisabeth depois do convento sabe o que ela
+      sofria, mas tem medo de falar. Ele est\xE1 aqui mesmo, nesta rua."
+    dialogueAudio:
+      Guid:
+        Data1: 1101814583
+        Data2: 1283210372
+        Data3: 1674768279
+        Data4: -1519714328
+      Path: event:/P3Normal
+    choices: []
+  - name: Pierre-Paul Sirven
+    text: "E at\xE9 um banqueiro, esse Kornmann, repete nos caf\xE9s o que os ju\xEDzes
+      dizem de mim."
+    dialogueAudio:
+      Guid:
+        Data1: 2118103526
+        Data2: 1107917209
+        Data3: -768954470
+        Data4: -1156187180
+      Path: event:/ReclamarMain
+    choices: []
+  - name: Pierre-Paul Sirven
+    text: "Valois, voc\xEA acredita que a 'Toler\xE2ncia' de Voltaire pode vencer
+      o peso desta toga conservadora?"
+    dialogueAudio:
+      Guid:
+        Data1: 1101814583
+        Data2: 1283210372
+        Data3: 1674768279
+        Data4: -1519714328
+      Path: event:/P3Normal
+    choices:
+    - choiceText: "Vou usar o Tratado sobre a Toler\xE2ncia para provar que este
+        tribunal \xE9 uma rel\xEDquia do passado."
+      nextDialogue: {fileID: 11400000, guid: 99bffeaa80e8f5947b842db7d5955050, type: 2}
+    - choiceText: "O povo prefere hist\xF3rias de crimes religiosos a laudos m\xE9dicos.
+        Ser\xE1 uma luta dif\xEDcil para a Opini\xE3o P\xFAblica."
+      nextDialogue: {fileID: 11400000, guid: ad730ee5701170d479b112cc53978a46, type: 2}
+    - choiceText: "Como era \xC9lisabeth antes do convento?"
+      nextDialogue: {fileID: 11400000, guid: d34cf01eb5a6a1e4ba051bbf17ec3b28, type: 2}

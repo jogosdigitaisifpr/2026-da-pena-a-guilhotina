@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d3a40fd8b7f6b47873ddb8ab32ce5e, type: 3}
+  m_Name: Caso_Assignats
+  m_EditorClassIdentifier: Assembly-CSharp::CaseData
+  caseTitle: "Morte no Po\xE7o e Intoler\xE2ncia"
+  caseDescription: "\xC9lisabeth Sirven, jovem de fam\xEDlia protestante que passou
+    meses internada num convento, foi encontrada morta num po\xE7o, em Castres. Ju\xEDzes
+    conservadores acusam o pai, Pierre-Paul Sirven, de mat\xE1-la para impedir sua
+    convers\xE3o ao catolicismo, e querem confiscar os bens da fam\xEDlia, que fugiu
+    para o ex\xEDlio. Leitores de Voltaire pagam a defesa."
+  objectiveText: "Descobrir como \xC9lisabeth vivia antes de morrer e o que sustenta
+    a acusa\xE7\xE3o contra o pai."
+  moneyReward: 35
+  publicOpinionReward: 5
+  stateOpinionReward: 5
+  fase: 3
+  rota: 0
+  horasDeInvestigacao: 0
+  npcDialogueRoute: {fileID: 11400000, guid: 9b750ab595a349e44a1866a3723238e8, type: 2}
+  nextSceneName: Fase3
+  receitaDoPanfleto: {fileID: 11400000, guid: 986d31c686cc99f41afda7909d5bc9b7, type: 2}
+  alegacoesIniciais:
+  - {fileID: 11400000, guid: 8c51baa68ea7fc843b0502c280451ebd, type: 2}
+  - {fileID: 11400000, guid: 896a0ff2302027948b78d43105257d88, type: 2}
+  deducao:
+    ativa: 1
+    pares:
+    - a: {fileID: 11400000, guid: f87ff9f4618e22e4ba92bbbdde0f2ea9, type: 2}
+      b: {fileID: 11400000, guid: 6db250082e1d88a4599da64cfd70503f, type: 2}
+    - a: {fileID: 11400000, guid: 0f4b2a54426a0b640b528f4b17d34ae6, type: 2}
+      b: {fileID: 11400000, guid: 4f1c271dc25c8764a8fa6e095950a25a, type: 2}
+  tituloNoArquivo: 
+  tituloDoPanfleto: 
+  teorDoPanfleto: "Uma defesa de Pierre-Paul Sirven e da fam\xEDlia: o panfleto denunciava
+    um julgamento feito sem provas, movido pelo \xF3dio aos protestantes, e pedia
+    que o pai n\xE3o fosse condenado pela morte da filha."
+  personagens: "Pierre-Paul Sirven \u2014 protestante, pai de \xC9lisabeth; seu cliente\n\xC9lisabeth
+    Sirven \u2014 a filha, encontrada morta num po\xE7o\nO m\xE9dico local \u2014
+    tratou \xC9lisabeth depois do convento\nO bispo de Castres \u2014 mandou intern\xE1-la
+    num convento\nGuillaume Kornmann \u2014 repetia que ela queria se converter\nVoltaire
+    \u2014 escreveu o Tratado sobre a Toler\xE2ncia"
+  historia: "\xC9lisabeth, filha do protestante Pierre-Paul Sirven, foi internada
+    num convento por ordem do bispo de Castres, para ser convertida ao catolicismo.
+    Voltou para casa transtornada: o m\xE9dico que a tratou conta que ela falava
+    com sombras e fugia de casa de madrugada. Pouco depois, foi encontrada morta
+    num po\xE7o.\n\nOs ju\xEDzes acusaram o pai de mat\xE1-la para impedir a convers\xE3o,
+    a mesma acusa\xE7\xE3o que levara o protestante Jean Calas ao supl\xEDcio em
+    1762, antes de ser reabilitado em 1765. A hist\xF3ria de que \xC9lisabeth saiu
+    do convento s\xE3 e decidida a se converter era boato, e a \"confiss\xE3o de
+    Calas\" era cal\xFAnia.\n\nO Tratado sobre a Toler\xE2ncia de Voltaire nasceu
+    do caso Calas e deu for\xE7a \xE0 defesa dos Sirven."
+  desfechoFatos: "O panfleto contou como \xC9lisabeth vivia e lembrou o caso Calas.
+    A acusa\xE7\xE3o contra o pai perdeu o ch\xE3o, e o caso virou um exemplo de
+    justi\xE7a feita com preconceito."
+  desfechoComBoato: "O panfleto defendeu os Sirven com um fato e um boato. Comoveu
+    muitos leitores, mas a parte falsa foi desmentida e deu muni\xE7\xE3o aos ju\xEDzes."
+  desfechoCalunia: "O panfleto usou uma cal\xFAnia na defesa. Vendeu bem, at\xE9
+    a mentira cair e manchar tanto a fam\xEDlia quanto a tipografia."
+  notaHistorica: "O caso \xE9 real (Castres, 1760\u20131771): \xC9lisabeth foi internada
+    num convento, voltou perturbada e foi achada num po\xE7o; a fam\xEDlia fugiu,
+    foi condenada \xE0 revelia e reabilitada com a campanha de Voltaire. O m\xE9dico
+    e o laudo s\xE3o do jogo."

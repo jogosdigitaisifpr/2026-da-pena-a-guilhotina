@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: Jean_Dialogo
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: "Jean R\xE9veillon"
+    text: "Ah, outro n\xE3o! Eu n\xE3o mandei atirar em ningu\xE9m!"
+    dialogueAudio:
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+    choices:
+    - choiceText: Senhor, apenas vim em busca de resposta e da verdade.
+      nextDialogue: {fileID: 11400000, guid: 81a95ad37b662444f834f2a30711af99, type: 2}
+    - choiceText: "Por que est\xE1 t\xE3o nervoso, se afirma n\xE3o ter feito nada?"
+      nextDialogue: {fileID: 11400000, guid: 0af73699fc2b2834685ef2d49f82ca4d, type: 2}

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: "Jean-Baptiste R\xE9veillon_Caso_Operario"
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: "Jean R\xE9veillon"
+    text: "Aqueles homens n\xE3o pediam p\xE3o: vieram armados, pagos na v\xE9spera
+      por agitadores do duque de Orl\xE9ans!"
+    dialogueAudio:
+      Guid:
+        Data1: -922102975
+        Data2: 1274908470
+        Data3: 619609240
+        Data4: 476546802
+      Path: event:/P1Normal
+    choices: []
+  - name: "Jean R\xE9veillon"
+    text: "A Guarda s\xF3 atirou para se defender. Anote isso."
+    dialogueAudio:
+      Guid:
+        Data1: -922102975
+        Data2: 1274908470
+        Data3: 619609240
+        Data4: 476546802
+      Path: event:/P1Normal
+    choices: []
+  - name: "Jean R\xE9veillon"
+    text: "Colaram a ordem da Guarda no muro de cartazes, e no quadro de avisos pregaram
+      um bilhete sobre o inc\xEAndio da minha f\xE1brica. Cada um conta de um jeito."
+    dialogueAudio:
+      Guid:
+        Data1: -922102975
+        Data2: 1274908470
+        Data3: 619609240
+        Data4: 476546802
+      Path: event:/P1Normal
+    choices:
+    - choiceText: O senhor viu os agitadores?
+      nextDialogue: {fileID: 11400000, guid: 7a2c1a065f1a30747a4299e4185b59c9, type: 2}
+    - choiceText: "Por que o duque de Orl\xE9ans pagaria uma revolta?"
+      nextDialogue: {fileID: 11400000, guid: 4c87915754932a649bff4939f997e78a, type: 2}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: RedatorMarchand_Caso_Girondina
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Camille Desmoulins
+    text: "As cartas de Brissot? Dizem que mandam as prov\xEDncias se separarem de
+      Paris e abrir os portos aos ingleses, como fizeram em Toulon."
+    dialogueAudio:
+      Guid:
+        Data1: 1666405146
+        Data2: 1151074371
+        Data3: -921428562
+        Data4: -1159192161
+      Path: event:/NormalFeminino1
+    choices: []
+  - name: Camille Desmoulins
+    text: "Robespierre deixou uma nota sobre o julgamento no arquivo do Comit\xEA,
+      e colaram um cartaz sobre os debates na parede de editais. Leia voc\xEA mesmo;
+      eu j\xE1 escrevi demais sobre esses homens."
+    dialogueAudio:
+      Guid:
+        Data1: 1666405146
+        Data2: 1151074371
+        Data3: -921428562
+        Data4: -1159192161
+      Path: event:/NormalFeminino1
+    choices:
+    - choiceText: O senhor leu as cartas?
+      nextDialogue: {fileID: 11400000, guid: c9daecc51f7071b4dac92e7d2019c78a, type: 2}
+    - choiceText: O senhor acredita que eles merecem a morte?
+      nextDialogue: {fileID: 11400000, guid: 9e74ab1284149274982c574b650d86ce, type: 2}

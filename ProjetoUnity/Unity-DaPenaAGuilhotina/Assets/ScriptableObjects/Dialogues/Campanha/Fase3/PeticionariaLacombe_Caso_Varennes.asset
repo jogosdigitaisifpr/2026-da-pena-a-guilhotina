@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: PeticionariaLacombe_Caso_Varennes
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Sobrevivente
+    text: "Um banqueiro que briga com a mulher... Enquanto isso, as vi\xFAvas do
+      Champ de Mars n\xE3o t\xEAm o que comer."
+    dialogueAudio:
+      Guid:
+        Data1: 1666405146
+        Data2: 1151074371
+        Data3: -921428562
+        Data4: -1159192161
+      Path: event:/NormalFeminino1
+    choices: []
+  - name: Sobrevivente
+    text: "N\xE3o sei nada disso, senhor. Pergunte a quem frequenta os sal\xF5es."
+    dialogueAudio:
+      Guid:
+        Data1: 1666405146
+        Data2: 1151074371
+        Data3: -921428562
+        Data4: -1159192161
+      Path: event:/NormalFeminino1
+    choices: []

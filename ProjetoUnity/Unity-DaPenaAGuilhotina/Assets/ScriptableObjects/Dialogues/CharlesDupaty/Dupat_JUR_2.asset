@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91bcb522deb37a4ab25bed5ecb00d5d, type: 3}
+  m_Name: Dupat_JUR_2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Charles Dupaty
+    text: "Ele pode tornar mais dif\xEDcil ignorar a defesa. N\xE3o \xE9 uma senten\xE7a
+      e n\xE3o substitui o tribunal. Mas leva as perguntas a leitores que n\xE3o
+      estavam presentes quando esses homens foram julgados."
+    dialogueAudio:
+      Guid:
+        Data1: -1877086842
+        Data2: 1147956126
+        Data3: 557338505
+        Data4: -1852382703
+      Path: event:/P2Normal
+    choices:
+    - choiceText: Devemos atacar os magistrados pelo nome?
+      nextDialogue: {fileID: 11400000, guid: 9ba559859f31fab4593b1db6a6e0b37d, type: 2}
