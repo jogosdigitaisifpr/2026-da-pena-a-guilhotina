@@ -1,0 +1,204 @@
+[2026-09-20T04:09:56.441Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=9288
+[2026-09-20T04:09:56.451Z] [INFO] log Starting relay server...
+[2026-09-20T04:09:56.450Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-20T04:09:56.453Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","9288","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-20T04:09:56.453Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"9288","shutdownDelaySeconds":180}
+[2026-09-20T04:09:56.457Z] [INFO] log Initializing relay components...
+[2026-09-20T04:09:56.459Z] [INFO] log Creating RelayEditor...
+[2026-09-20T04:09:56.493Z] [INFO] log WebSocket server started
+[2026-09-20T04:09:56.507Z] [INFO] log Relay server initialization completed
+[2026-09-20T04:09:56.509Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-20T04:09:56.525Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-20T04:09:56.563Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-20T04:09:57.191Z] [INFO] log Unity client connected with ID: editor-9288-ittq7x (relay 1.0.12-build.96)
+[2026-09-20T04:09:57.192Z] [INFO] connection.established clientId=editor-9288-ittq7x port=9001
+[2026-09-20T04:12:07.405Z] [DEBUG] log [SharedTask] get preferences: starting new task
+[2026-09-20T04:12:07.459Z] [DEBUG] log [GatewayPrefs] seeded preferences with user's environment {"Claude Code":{},"Codex":{},"Gemini":{}}
+[2026-09-20T04:12:07.478Z] [DEBUG] log [GatewayPrefs] getPreferences completed successfully with 4 providers (persisted=false)
+[2026-09-20T04:12:07.692Z] [DEBUG] log [validate] Found Claude CLI at: C:\Users\scarp\.local\bin\claude.exe
+[2026-09-20T04:12:09.294Z] [DEBUG] log [provider-version] Claude version from C:\Users\scarp\.local\bin\claude.exe: 2.1.278
+[2026-09-20T04:12:09.295Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"claude-code","version":"2.1.278","isCustom":false},{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-09-20T04:12:09.297Z] [DEBUG] log [GatewayPrefs] Emitted PreferencesUpdated with 3 versions
+[2026-09-20T04:22:53.668Z] [INFO] log Shutdown request received from client editor-9288-ittq7x
+[2026-09-20T04:22:53.693Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-20T04:22:53.704Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-20T04:24:56.784Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=5836
+[2026-09-20T04:24:56.787Z] [INFO] log Starting relay server...
+[2026-09-20T04:24:56.786Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-20T04:24:56.788Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","5836","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-20T04:24:56.789Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"5836","shutdownDelaySeconds":180}
+[2026-09-20T04:24:56.791Z] [INFO] log Initializing relay components...
+[2026-09-20T04:24:56.792Z] [INFO] log Creating RelayEditor...
+[2026-09-20T04:24:56.811Z] [INFO] log WebSocket server started
+[2026-09-20T04:24:56.812Z] [INFO] log Relay server initialization completed
+[2026-09-20T04:24:56.813Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-20T04:24:56.823Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-20T04:24:56.841Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-20T04:24:57.463Z] [INFO] log Unity client connected with ID: editor-5836-89utv1 (relay 1.0.12-build.96)
+[2026-09-20T04:24:57.464Z] [INFO] connection.established clientId=editor-5836-89utv1 port=9001
+[2026-09-20T04:29:26.879Z] [INFO] log Shutdown request received from client editor-5836-89utv1
+[2026-09-20T04:29:26.880Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-20T04:29:26.885Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-20T04:33:35.938Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=26104
+[2026-09-20T04:33:35.942Z] [INFO] log Starting relay server...
+[2026-09-20T04:33:35.940Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-20T04:33:35.943Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","26104","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-20T04:33:35.944Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"26104","shutdownDelaySeconds":180}
+[2026-09-20T04:33:35.947Z] [INFO] log Initializing relay components...
+[2026-09-20T04:33:35.948Z] [INFO] log Creating RelayEditor...
+[2026-09-20T04:33:35.965Z] [INFO] log WebSocket server started
+[2026-09-20T04:33:35.976Z] [INFO] log Relay server initialization completed
+[2026-09-20T04:33:35.978Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-20T04:33:35.991Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-20T04:33:36.019Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-20T04:33:36.468Z] [INFO] log Unity client connected with ID: editor-26104-9cikxg (relay 1.0.12-build.96)
+[2026-09-20T04:33:36.469Z] [INFO] connection.established clientId=editor-26104-9cikxg port=9001
+[2026-09-20T04:35:18.821Z] [DEBUG] log [SharedTask] get preferences: starting new task
+[2026-09-20T04:35:18.841Z] [DEBUG] log [GatewayPrefs] getPreferences completed successfully with 4 providers (persisted=true)
+[2026-09-20T04:35:18.996Z] [DEBUG] log [validate] Found Claude CLI at: C:\Users\scarp\.local\bin\claude.exe
+[2026-09-20T04:35:20.091Z] [DEBUG] log [provider-version] Claude version from C:\Users\scarp\.local\bin\claude.exe: 2.1.278
+[2026-09-20T04:35:20.092Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"claude-code","version":"2.1.278","isCustom":false},{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-09-20T04:35:20.100Z] [DEBUG] log [GatewayPrefs] Emitted PreferencesUpdated with 3 versions
+[2026-09-20T04:37:10.532Z] [DEBUG] log [SharedTask] get preferences: starting new task
+[2026-09-20T04:37:10.544Z] [DEBUG] log [GatewayPrefs] getPreferences completed successfully with 4 providers (persisted=true)
+[2026-09-20T04:37:10.655Z] [DEBUG] log [validate] Found Claude CLI at: C:\Users\scarp\.local\bin\claude.exe
+[2026-09-20T04:37:11.652Z] [DEBUG] log [provider-version] Claude version from C:\Users\scarp\.local\bin\claude.exe: 2.1.278
+[2026-09-20T04:37:11.653Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"claude-code","version":"2.1.278","isCustom":false},{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-09-20T04:37:11.653Z] [DEBUG] log [GatewayPrefs] Emitted PreferencesUpdated with 3 versions
+[2026-09-20T04:37:13.397Z] [DEBUG] log [SharedTask] get preferences: starting new task
+[2026-09-20T04:37:13.407Z] [DEBUG] log [GatewayPrefs] getPreferences completed successfully with 4 providers (persisted=true)
+[2026-09-20T04:37:13.499Z] [DEBUG] log [validate] Found Claude CLI at: C:\Users\scarp\.local\bin\claude.exe
+[2026-09-20T04:37:14.456Z] [DEBUG] log [provider-version] Claude version from C:\Users\scarp\.local\bin\claude.exe: 2.1.278
+[2026-09-20T04:37:14.457Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"claude-code","version":"2.1.278","isCustom":false},{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-09-20T04:37:14.458Z] [DEBUG] log [GatewayPrefs] Emitted PreferencesUpdated with 3 versions
+[2026-09-20T04:41:57.797Z] [INFO] log Shutdown request received from client editor-26104-9cikxg
+[2026-09-20T04:41:57.808Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-20T04:41:57.812Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-20T04:42:43.899Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=6860
+[2026-09-20T04:42:43.903Z] [INFO] log Starting relay server...
+[2026-09-20T04:42:43.902Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-20T04:42:43.904Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","6860","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-20T04:42:43.904Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"6860","shutdownDelaySeconds":180}
+[2026-09-20T04:42:43.908Z] [INFO] log Initializing relay components...
+[2026-09-20T04:42:43.909Z] [INFO] log Creating RelayEditor...
+[2026-09-20T04:42:43.919Z] [INFO] log WebSocket server started
+[2026-09-20T04:42:43.920Z] [INFO] log Relay server initialization completed
+[2026-09-20T04:42:43.924Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-20T04:42:43.946Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-20T04:42:43.968Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-20T04:42:44.165Z] [INFO] log Unity client connected with ID: editor-6860-pk5nww (relay 1.0.12-build.96)
+[2026-09-20T04:42:44.166Z] [INFO] connection.established clientId=editor-6860-pk5nww port=9001
+[2026-09-20T04:45:33.775Z] [INFO] log Shutdown request received from client editor-6860-pk5nww
+[2026-09-20T04:45:33.779Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-20T04:45:33.784Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-20T04:49:15.485Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=3452
+[2026-09-20T04:49:15.488Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","3452","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-20T04:49:15.488Z] [INFO] log Starting relay server...
+[2026-09-20T04:49:15.487Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-20T04:49:15.489Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"3452","shutdownDelaySeconds":180}
+[2026-09-20T04:49:15.492Z] [INFO] log Initializing relay components...
+[2026-09-20T04:49:15.493Z] [INFO] log Creating RelayEditor...
+[2026-09-20T04:49:15.502Z] [INFO] log WebSocket server started
+[2026-09-20T04:49:15.504Z] [INFO] log Relay server initialization completed
+[2026-09-20T04:49:15.505Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-20T04:49:15.521Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-20T04:49:15.540Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-20T04:49:15.922Z] [INFO] log Unity client connected with ID: editor-3452-ho4f4p (relay 1.0.12-build.96)
+[2026-09-20T04:49:15.923Z] [INFO] connection.established clientId=editor-3452-ho4f4p port=9001
+[2026-09-20T05:10:30.647Z] [INFO] log Shutdown request received from client editor-3452-ho4f4p
+[2026-09-20T05:10:30.686Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-20T05:10:30.704Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-20T05:11:19.388Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=22300
+[2026-09-20T05:11:19.392Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"22300","shutdownDelaySeconds":180}
+[2026-09-20T05:11:19.392Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","22300","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-20T05:11:19.391Z] [INFO] log Starting relay server...
+[2026-09-20T05:11:19.390Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-20T05:11:19.394Z] [INFO] log Initializing relay components...
+[2026-09-20T05:11:19.395Z] [INFO] log Creating RelayEditor...
+[2026-09-20T05:11:19.406Z] [INFO] log WebSocket server started
+[2026-09-20T05:11:19.408Z] [INFO] log Relay server initialization completed
+[2026-09-20T05:11:19.409Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-20T05:11:19.425Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-20T05:11:19.442Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-20T05:11:19.779Z] [INFO] log Unity client connected with ID: editor-22300-mgmklf (relay 1.0.12-build.96)
+[2026-09-20T05:11:19.780Z] [INFO] connection.established clientId=editor-22300-mgmklf port=9001
+[2026-09-20T05:15:17.269Z] [INFO] log Shutdown request received from client editor-22300-mgmklf
+[2026-09-20T05:15:17.278Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-20T05:15:17.286Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-20T05:15:54.781Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=9416
+[2026-09-20T05:15:54.784Z] [INFO] log Starting relay server...
+[2026-09-20T05:15:54.783Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-20T05:15:54.785Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","9416","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-20T05:15:54.785Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"9416","shutdownDelaySeconds":180}
+[2026-09-20T05:15:54.788Z] [INFO] log Initializing relay components...
+[2026-09-20T05:15:54.789Z] [INFO] log Creating RelayEditor...
+[2026-09-20T05:15:54.797Z] [INFO] log WebSocket server started
+[2026-09-20T05:15:54.801Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-20T05:15:54.799Z] [INFO] log Relay server initialization completed
+[2026-09-20T05:15:54.819Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-20T05:15:54.839Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-20T05:15:55.155Z] [INFO] log Unity client connected with ID: editor-9416-r8m363 (relay 1.0.12-build.96)
+[2026-09-20T05:15:55.156Z] [INFO] connection.established clientId=editor-9416-r8m363 port=9001
+[2026-09-20T05:18:42.843Z] [INFO] log Shutdown request received from client editor-9416-r8m363
+[2026-09-20T05:18:42.872Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-20T05:18:42.889Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-20T21:07:09.641Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=12572
+[2026-09-20T21:07:09.644Z] [INFO] log Starting relay server...
+[2026-09-20T21:07:09.642Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-20T21:07:09.645Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"12572","shutdownDelaySeconds":180}
+[2026-09-20T21:07:09.644Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","12572","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-20T21:07:09.650Z] [INFO] log Initializing relay components...
+[2026-09-20T21:07:09.651Z] [INFO] log Creating RelayEditor...
+[2026-09-20T21:07:09.659Z] [INFO] log WebSocket server started
+[2026-09-20T21:07:09.660Z] [INFO] log Relay server initialization completed
+[2026-09-20T21:07:09.662Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-20T21:07:09.679Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-20T21:07:09.696Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-20T21:07:10.235Z] [INFO] log Unity client connected with ID: editor-12572-ga30wt (relay 1.0.12-build.96)
+[2026-09-20T21:07:10.236Z] [INFO] connection.established clientId=editor-12572-ga30wt port=9001
+[2026-09-20T21:26:38.353Z] [DEBUG] log [SharedTask] get preferences: starting new task
+[2026-09-20T21:26:38.696Z] [DEBUG] log [GatewayPrefs] getPreferences completed successfully with 4 providers (persisted=true)
+[2026-09-20T21:26:38.849Z] [DEBUG] log [validate] Found Claude CLI in PATH: C:\Users\scarp\.local\bin\claude.exe
+[2026-09-20T21:26:39.883Z] [DEBUG] log [provider-version] Claude version from C:\Users\scarp\.local\bin\claude.exe: 2.1.278
+[2026-09-20T21:26:39.883Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"claude-code","version":"2.1.278","isCustom":false},{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-09-20T21:26:39.885Z] [DEBUG] log [GatewayPrefs] Emitted PreferencesUpdated with 3 versions
+[2026-09-21T01:18:52.119Z] [INFO] log Shutdown request received from client editor-12572-ga30wt
+[2026-09-21T01:18:52.155Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-21T01:18:52.161Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-22T19:35:20.156Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=21040
+[2026-09-22T19:35:20.180Z] [INFO] log Creating RelayEditor...
+[2026-09-22T19:35:20.179Z] [INFO] log Initializing relay components...
+[2026-09-22T19:35:20.175Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"21040","shutdownDelaySeconds":180}
+[2026-09-22T19:35:20.168Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.96)
+[2026-09-22T19:35:20.170Z] [INFO] log Starting relay server...
+[2026-09-22T19:35:20.172Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","21040","--shutdown-delay","180","--log-dir","C:\\Users\\scarp\\OneDrive\\Documentos\\GitHub\\Da_pena_a_guilhotina\\Unity-DaPenaAGuilhotina\\Logs"]
+[2026-09-22T19:35:20.214Z] [INFO] log WebSocket server started
+[2026-09-22T19:35:20.223Z] [INFO] log Relay server initialization completed
+[2026-09-22T19:35:20.242Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-22T19:35:20.260Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-22T19:35:20.305Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-22T19:35:20.681Z] [INFO] log Unity client connected with ID: editor-21040-8ajbba (relay 1.0.12-build.96)
+[2026-09-22T19:35:20.687Z] [INFO] connection.established clientId=editor-21040-8ajbba port=9001
+[2026-09-22T19:50:38.788Z] [INFO] log Domain reload signal received from client editor-21040-8ajbba
+[2026-09-22T19:50:38.800Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-22T19:50:38.812Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-22T19:50:45.315Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-22T19:50:45.318Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-22T19:50:45.321Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-09-22T19:50:45.324Z] [WARN] connection.lost clientId=null
+[2026-09-22T19:50:45.328Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-09-22T19:50:45.333Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-09-22T19:51:16.221Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-09-22T19:51:16.226Z] [INFO] log Unity client connected with ID: editor-21040-vd5lkp (relay 1.0.12-build.96)
+[2026-09-22T19:51:16.227Z] [INFO] connection.established clientId=editor-21040-vd5lkp port=9001
+[2026-09-22T21:19:17.858Z] [INFO] log Domain reload signal received from client editor-21040-vd5lkp
+[2026-09-22T21:19:17.897Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-22T21:19:17.903Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-22T21:21:16.979Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-22T21:21:16.996Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-22T21:21:17.001Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-09-22T21:21:17.005Z] [WARN] connection.lost clientId=null
+[2026-09-22T21:21:17.009Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-09-22T21:21:17.019Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-09-22T21:24:17.209Z] [INFO] log Auto-shutdown timer fired after 180s inactivity, shutting down: Dedicated client disconnected
+[2026-09-22T21:24:17.226Z] [INFO] log Shutdown: Initiating graceful shutdown: Dedicated client disconnected
